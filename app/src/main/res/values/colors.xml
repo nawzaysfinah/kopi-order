@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#FFF8E1</color> <!-- Light cream color for background -->
+    <color name="textPrimary">#3E2723</color> <!-- Dark brown for primary text -->
+    <color name="textSecondary">#795548</color> <!-- Medium brown for secondary text -->
+    <color name="buttonColor">#8D6E63</color> <!-- Warm brown color for buttons -->
+</resources>

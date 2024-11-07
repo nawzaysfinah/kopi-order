@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:text="🫘 Kopi Order ☕"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/textPrimary"
+        android:fontFamily="sans-serif-condensed" />
+
+    <TextView
+        android:id="@+id/drink_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Drink"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textSecondary"
+        android:fontFamily="sans-serif-light" />
+
+    <RadioGroup
+        android:id="@+id/drinkGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/tehButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teh"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioButton
+            android:id="@+id/kopiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kopi"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioButton
+            android:id="@+id/yuanyangButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yuan Yang"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/temperature_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Temperature"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textSecondary"
+        android:fontFamily="sans-serif-light" />
+
+    <RadioGroup
+        android:id="@+id/temperatureGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/hotButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hot"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioButton
+            android:id="@+id/pengButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iced"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/milk_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Milk Type"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textSecondary"
+        android:fontFamily="sans-serif-light" />
+
+    <RadioGroup
+        android:id="@+id/milkGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/cButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioButton
+            android:id="@+id/oButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioButton
+            android:id="@+id/regularMilkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/sugar_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Sugar Level"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textSecondary"
+        android:fontFamily="sans-serif-light" />
+
+    <RadioGroup
+        android:id="@+id/sugarGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/kosongButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kosong"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioButton
+            android:id="@+id/siewDaiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siew Dai"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioButton
+            android:id="@+id/regularSugarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regular"
+            android:textColor="@color/textPrimary"
+            android:fontFamily="sans-serif-medium" />
+    </RadioGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2.0">
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-bold"
+        android:padding="10dp"
+        android:layout_weight="1.0" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-bold"
+        android:padding="10dp"
+        android:layout_weight="1.0" />
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/savedDataDisplay"
+        android:hint="Your orders here"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textPrimary"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:paddingTop="16dp"
+        android:textColor="@color/textPrimary"
+        android:fontFamily="sans-serif-light" />
+
+</LinearLayout>
